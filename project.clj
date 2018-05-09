@@ -11,5 +11,5 @@
                 {:output-to "public/js/main.js"
                  :optimizations :whitespace
                  :pretty-print true}}]}
-  ;;:main naive-bayes.core
+  :main naive-bayes.core
   :plugins [[lein-cljsbuild "1.1.7"]])
